@@ -1,4 +1,4 @@
-# LinkShare
+# ShareLink
 
 First draft of private audio sharing with dynamic routes
 
