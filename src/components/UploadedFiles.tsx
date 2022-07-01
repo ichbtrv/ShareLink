@@ -53,7 +53,6 @@ const UploadedFiles = () => {
 
   }
 
-  //MODULARIZE
   const getBucket = async () => {
 
     const { data } = await supabase
@@ -76,7 +75,6 @@ const UploadedFiles = () => {
       console.log(data)
       router.push(`/upload_session/${data![0].id}`)
     }
-
 
     createSession();
   }
